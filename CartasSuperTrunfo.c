@@ -32,14 +32,14 @@ int main() {
 
 
         //Entrada de dados carta 1 e 2
-        printf("Carta 2:\n");
+        printf("Carta 1:\n");
 
         //Estado
         printf("Digitar o Estado: ");
         scanf(" %c", &estado);
 
         //Código da Carta
-        printf("Digitar o código da carta 2: ");
+        printf("Digitar o código da carta 1: ");
         scanf("%s", codigo_carta);
 
         //Nome da Cidade
@@ -65,7 +65,7 @@ int main() {
 
 
         //Saída de dados Carta 1 e 2
-        printf("Carta 2:\n");
+        printf("Carta 1:\n");
         printf("Estado: %c\n", estado);
         printf("Código: %s\n", codigo_carta);
         printf("Nome da Cidade: %s\n", nome_cidade);
